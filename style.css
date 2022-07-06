@@ -32,18 +32,18 @@ body {
   margin-top: 30px;
   display: inline-flex;
 }
-.content-part {
+.donate-amount {
   text-align: center;
   padding: 100px;
 }
-.content-part h1 {
+h1 {
   color: black;
   font-size: 50px;
   font-weight: 600;
   margin: 0;
   padding: 10px;
 }
-.content-part h4 {
+h4 {
   font-weight: 400;
   color: grey;
   margin: 0;
@@ -66,7 +66,7 @@ body {
   background-color: rgb(243, 217, 217);
   border: 2px solid tomato;
 }
-#amount-input {
+input {
   border: none;
   outline: none;
   text-align: center;
@@ -77,4 +77,62 @@ hr {
   width: 750px;
   color: gray;
   opacity: 0.5;
+}
+.donate-plan {
+  text-align: center;
+  padding: 10px;
+}
+.flex-container {
+  display: flex;
+  margin: 40px;
+  text-align: left;
+}
+.food-plan {
+  padding: 30px;
+  background-color: rgb(236, 254, 254);
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+}
+
+.shelter-plan {
+  padding: 30px;
+  background-color: rgb(246, 221, 225);
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+}
+
+.education-plan {
+  padding: 30px;
+  background-color: rgb(244, 244, 220);
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+}
+.update {
+  text-align: center;
+}
+.email-update {
+  display: flex;
+  margin: 40px 400px;
+  padding: 50px 250px;
+  background-color: rgb(255, 239, 218);
+}
+form a {
+  color: white;
+  font-size: 20px;
+  background-color: tomato;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  padding: 20px;
+}
+#email {
+  background-color: rgb(207, 205, 205);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  opacity: 0.8;
 }
