@@ -110,8 +110,42 @@ hr {
   height: 50%;
   margin: 20px;
 }
+.contribute-plan {
+  text-align: center;
+  padding: 20px;
+}
+.contribute-content {
+  display: inline-flex;
+  margin-bottom: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.contribute-img-left {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+img {
+  border-radius: 200px;
+}
+.contribute-img-right {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.contribute-container {
+  display: inline-flex;
+  width: 95%;
+  height: 50%;
+  margin: 20px;
+  background: linear-gradient(orange, white);
+  border-radius: 250px;
+  margin-bottom: 50px;
+}
 .update {
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .email-update {
   display: inline-flex;
@@ -136,4 +170,17 @@ form a {
   padding: 20px;
   opacity: 0.8;
   width: 300px;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  margin-bottom: ;
+}
+footer h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 45px;
+  color: rgb(186, 25, 25);
 }
